@@ -60,6 +60,18 @@ The Expense Tracker is a Java-based console application designed to help users m
    ```bash
    git clone https://github.com/your-username/Expense-Tracker-Java.git
    ```
+2. Navigate to the project directory:
+   ```bash
+   cd Expense-Tracker-Java
+   ```
+3. Compile the Java source files (from inside the project directory):
+   ```bash
+   javac -d . Main.java model/Transaction.java service/TransactionManager.java util/FileHandler.java
+   ```
+4. Run the application:
+   ```bash
+   java Main
+   ```
 
 ## Screenshots
 
