@@ -13,7 +13,6 @@ public class Main {
     private static final Scanner scanner = new Scanner(System.in);
     private static final TransactionManager transactionManager = new TransactionManager();
 
-
     public static void main(String[] args) {
         while (true) {
             try {
@@ -47,8 +46,7 @@ public class Main {
             }
         }
     }
-    /* Handle Add Transaction
-    * */
+
     private static void handleAddTransaction(String type) {
         try {
             System.out.print("Enter date (YYYY-MM-DD): ");
@@ -73,9 +71,7 @@ public class Main {
             System.out.println("Error adding transaction: " + e.getMessage());
         }
     }
-    /*
-    Handle Summary
-     * */
+
     private static void handleSummary() {
         try {
             System.out.print("Enter year and month (YYYY-MM): ");
@@ -87,18 +83,13 @@ public class Main {
         }
     }
 
-    /*
-    Handle Load
-     */
     private static void handleLoad() {
         System.out.print("Enter file path to load: ");
         String path = scanner.nextLine();
         List<Transaction> list = FileHandler.loadTransactions(path);
         transactionManager.addAll(list);
     }
-    /*
-    Handle file save
-     */
+
     private static void handleSave() {
         System.out.print("Enter file path to save: ");
         String path = scanner.nextLine();
