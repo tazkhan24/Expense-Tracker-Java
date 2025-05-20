@@ -59,14 +59,3 @@ The Expense Tracker is a Java-based console application designed to help users m
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/Expense-Tracker-Java.git
-   ```
-
-## Screenshots
-
-![Screenshot 1](Screenshot%202025-05-20%20at%207.16.05%E2%80%AFPM.png)
-![Screenshot 2](Screenshot%202025-05-20%20at%207.16.22%E2%80%AFPM.png)
-![Screenshot 3](Screenshot%202025-05-20%20at%207.16.57%E2%80%AFPM.png)
-![Screenshot 4](Screenshot%202025-05-20%20at%207.18.09%E2%80%AFPM.png)
-![Screenshot 5](Screenshot%202025-05-20%20at%207.33.43%E2%80%AFPM.png)
-![Screenshot 6](Screenshot%202025-05-20%20at%207.34.55%E2%80%AFPM.png)
-
